@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <!-- подключаем файл стилей -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- подключаем файл скриптов -->
+    <!-- <script src="js/script.js" defer></script> -->
+    <script src="js/appQuiz.js" defer></script>
+</head>
+<body>
+    <main class="main">
+            <section class="home">
+                <div class="home-content">
+                    <h1>Пройдите тест</h1>
+                    <button class="btn additionBtn">сложение</button>
+                    <button class="btn subtractionBtn">вычитание</button>
+                    <button class="btn multiplicationBtn">умножение</button>
+                    <button class="btn divisionsBtn">деление</button>
+                </div>
+            </section>
+
+            <div class="quiz-section">
+
+                <div class="windowPopupAlert">
+                    <div class="textAlert"></div>
+                    <div class="btnClose">Закрыть</div>
+                </div>
+
+                <div class="windowResult">
+                    <div class="titleResult">Ваш результат</div>
+                    <div class="percentage-container">
+                        <div class="circularProgress">
+                            <span class="progressValue"></span>
+                        </div>
+                    </div>
+                    <div class="textResult"></div>
+                    <div class="btn-box">
+                        <button class="btnResult">Начать заново</button>
+                        <button class="btnEnd">На главную</button>
+                    </div>
+                </div>
+
+                <div class="quiz-box">
+                    <h1>Викторина</h1>
+                    <div class="quiz-header">
+                        <span>Тест по математике</span>
+                        <span class="header-score"></span>
+                    </div>
+
+                    <h2 class="question-text">Выполните сложениие</h2>
+                    <div class="option-list">
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 из 20 вопросов</span>
+                        <button class="nextBtn">Следующий</button>
+                    </div>
+                </div>
+            </div>
+
+            
+    </main>
+
+</body>
+</html>
